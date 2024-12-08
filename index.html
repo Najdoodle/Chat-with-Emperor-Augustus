@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with Emperor Augustus (AI Version)</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Chat with Emperor Augustus</h1>
+        <div id="inputPrompt">
+            Ask the Emperor about Rome, history, philosophy, or daily life. Try one of these:
+            <br><em>"Who are you?", "How is Rome?", "Tell me about Julius Caesar", "What is the Colosseum?"</em>
+        </div>
+        <div id="chatbox" class="scrolling-container"></div>
+        <input type="text" id="userInput" placeholder="Ask the Emperor anything..." onkeydown="if(event.key === 'Enter'){sendMessage()}">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
